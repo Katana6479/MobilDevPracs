@@ -15,8 +15,8 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.431"/>
     <ImageView
-            android:layout_width="229dp"
-            android:layout_height="188dp" app:srcCompat="@drawable/d12bcf726d8683c17229522b730ea061"
+            android:layout_width="76dp"
+            android:layout_height="59dp" app:srcCompat="@drawable/d12bcf726d8683c17229522b730ea061"
             android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.496"

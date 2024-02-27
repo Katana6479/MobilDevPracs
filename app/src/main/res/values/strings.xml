@@ -2,5 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="button">Button</string>
     <string name="name">Name</string>
-    <string name="textview">Text</string>
+    <string name="textView2">Text</string>
+    <string name="textView1">Hello World!</string>
 </resources>

@@ -1,16 +1,22 @@
 package com.example.myapplication;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn;
+    private TextView textView;
     public static final String KEY = "key";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.d("111","Create");
         btn = findViewById(R.id.button);
         btn.setOnClickListener(this);
+        textView=findViewById(R.id.textView1);
+        textView.setText(String.format(Locale.getDefault(), "Android Version: %s (%d)", Build.VERSION.RELEASE, Build.VERSION.SDK_INT));
     }
     protected void onStart(){
         super.onStart();
